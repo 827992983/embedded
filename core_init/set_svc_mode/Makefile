@@ -1,6 +1,6 @@
 all: start.o 
-	arm-linux-ld -Tgboot.lds -o gboot.elf $^
-	arm-linux-objcopy -O binary gboot.elf gboot.bin
+	arm-linux-ld -Tmy_uboot.lds -o my_uboot.elf $^
+	arm-linux-objcopy -O binary my_uboot.elf my_uboot.bin
 	
 %.o : %.S
 	arm-linux-gcc -g -c $^
