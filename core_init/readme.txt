@@ -6,3 +6,5 @@
 5.close_cache_and_mmu：关闭MMU和i-cache和d-cache
 6.light_led：点亮led，可烧写调试
 7.set_cpu_time：设置cpu时钟频率
+8.init_status: 初始化栈
+9.init_bss：初始化bss段
