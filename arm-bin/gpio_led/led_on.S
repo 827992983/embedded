@@ -1,7 +1,5 @@
 @running on mini2440
-
 .text
-.data
 .global _start
 
 _start:
